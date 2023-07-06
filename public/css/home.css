@@ -1,0 +1,87 @@
+
+.home__header{
+    background-color: var(--colorAmarillo);
+    padding-top: 5px;
+}
+.home_header_compra{
+text-align: center;
+margin-left: 15px;
+margin-bottom: 15px;
+}
+.home__body__navbar--menu{
+    margin-bottom: 15PX;
+}
+.home_header_barra--busqueda ,.home_header_boton--busqueda{
+    margin-left: 15px;
+}
+.home_header_boton--busqueda{
+margin-bottom: 15px; }
+
+.home__header--boxLogo{
+    width: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.home__header--logo{
+    width: 100%;
+    padding-left: 15px;
+}
+.home__body__navbar--MenuCuenta{
+    margin-bottom: 20px;
+}
+.home__header--burgermenu{
+    color:var(--colorGrisClaro);
+    background-color: var(--colorCeleste);
+    padding: 10px;
+    margin: 0 130px 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.home__header--burgermenu i{
+    font-size: 1.5em;
+}
+.home img{
+width: 100%;
+}
+.home__banner{
+    display: none;
+}
+.home__main--precio{
+    font-size: 24px;
+}
+.home__main--descuento{
+    font-size: 16px;
+}
+.home__main__producto{
+    font-size: 16px;
+}
+/* Footer */
+.footer {
+    text-align: center;
+}
+
+.footer__tarjeta ,.footer__envio, .footer__seguridad,.footer__copy i{
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--colorGrisOscuro);
+}
+.footer__copy{
+    color: var(--colorGrisOscuro);
+}
+footer i{
+    color: var(--colorCeleste);
+}
+.footer__copy{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.footer i{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
