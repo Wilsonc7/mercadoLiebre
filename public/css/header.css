@@ -1,0 +1,61 @@
+
+body.home .home_header {    
+    background-color:var(--colorAmarillo);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.home_header_logo{
+    width: 40%;
+    display: block;
+    padding: 15px;
+}
+body.home .home_header_compra{
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 25px;
+}
+.home_header--form{
+    display: inline;
+}
+body.home .home_header_barra--busqueda{
+    margin-left: 15px;
+    padding: 0; 
+}
+body.home .home_header_boton--busqueda{
+    
+    margin-left: 0px;
+    font-size: 12px;
+    padding: 1px;
+    background-color: var(--colorGrisClaro);
+    border: solid 1px var(--colorGrisOscuro);
+    border-radius: 15%;
+}
+.home_header--menu{
+    display: none;
+}
+
+body.home .home_header--menu a,body.home .home_header--menu ul{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 0;
+} 
+
+body.home .home_header_menu--login li a{
+    padding-right: 5px;
+}
+
+body.home .home_header_burger--menu{
+    color: var(--colorGrisClaro);
+    text-align: center; 
+    margin:auto;
+    margin-bottom: 10px;
+    
+}
+body.home .home_header_burger--menu i{
+    background-color: var(--colorCeleste);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}

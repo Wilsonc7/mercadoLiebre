@@ -1,3 +1,4 @@
+
 const express=require ('express')// requerimos express
 const app=express()//lo guardamos en una variable llamada app ejecutado
 const path= require("path")//requerimos el modulo path para usar las funciones .join y hacer que nos concatene las rutas dandole las ubicaciones 
@@ -12,4 +13,5 @@ app.get('/ofertas',(req,res)=>res.sendFile(path.join(__dirname,'views','ofertas.
 app.get('/tiendasOficiales',(req,res)=>res.sendFile(path.join(__dirname,'views','tiendasOficiales.html')))
 app.get('/vender',(req,res)=>res.sendFile(path.join(__dirname,'views','vender.html')))
 app.get('/*',(req,res)=>res.sendFile(path.join(__dirname,'views','404.html')))
-app.listen(PORT,()=>console.log("MercadoLiebre ON "+PORT))// usamos listen para escuchar y levantar nuestro servidor 
+app.listen(PORT,()=>console.log("MercadoLiebre ON "+PORT))// usamos listen para escuchar y levantar nuestro servidor
+
