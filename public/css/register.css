@@ -1,0 +1,73 @@
+.main__formBox{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    margin: 10px auto;
+    max-width: 450px;
+    justify-content: center;
+   
+}
+.main__formBox form{
+    width: 100%;
+}
+.main__formBox h2{
+    margin: 10px;
+}
+
+.main__formBox__form--Inputs{
+    margin: 15px 10px; 
+}
+
+.main__formBox__form--Inputs input{
+    text-transform: capitalize;
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+   
+}
+.main__formBox__form--perfilUser{
+    margin: 10px  ;
+}
+.main__formBox__form--perfilUser h4{
+    margin: 5px 0;
+}
+.main__formBox__form--perfilUser input{
+    margin: 10px 15px;
+}
+.main__formBox__form--perfilUser label{
+    margin-right: 10px;
+}
+
+
+.main__formBox__form--intereses{
+   margin: 10px  ;
+
+}
+.main__formBox__form--intereses h4{
+    margin: 10px 0;
+}
+.main__formBox__form--intereses input{
+    margin: 20px;
+}
+
+.main__formBox__form--buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main__formBox__form--buttons button{
+    border: none;
+    color: var(--colorGrisClaro);
+    background-color: var(--colorCeleste);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.main__formBox__form--buttons button:active{
+    background-color: var(--colorAzul);
+}
+
+.main__formBox__form--buttons button a{
+    color: var(--colorGrisClaro);
+}

@@ -1,11 +1,11 @@
-body.home .home_footer{
+ .home_footer{
     margin-top: 50px;
     
     text-align: center;
     
 }
 
-body.home .home_footer h4{
+ .home_footer h4{
     margin: 0;
     color: var(--colorGrisOscuro);
 }
@@ -16,12 +16,12 @@ body.home .home_footer h4{
     margin: 0 35px 50px;
 }
 
-body.home .home_footer i{
+ .home_footer i{
     font-size: 2em;
     margin-bottom: 10px;
     color: var(--colorCeleste);
 }
-body.home .home_footer_p{
+ .home_footer_p{
     text-align: left;
     margin-left: 10px;
 }

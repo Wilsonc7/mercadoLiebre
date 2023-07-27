@@ -57,27 +57,27 @@
     display: none;
 }
 
-body.home .home_header--menu a,body.home .home_header--menu ul{
+ .home_header--menu a, .home_header--menu ul{
     text-decoration: none;
     color: black;
     list-style: none;
     padding: 0;
 } 
 
-body.home .home_header_menu--login li a{
+ .home_header_menu--login li a{
     padding-right: 5px;
 }
 .home_header_burger--menu a:visited{
     color: var(--colorGrisClaro);
 }
-body.home .home_header_burger--menu{
+ .home_header_burger--menu{
     color: var(--colorGrisClaro);
     text-align: center; 
     margin:auto;
     margin-bottom: 10px;
     
 }
-body.home .home_header_burger--menu i{
+ .home_header_burger--menu i{
     background-color: var(--colorCeleste);
     padding: 8px;
     border-radius: 5px;
@@ -131,6 +131,7 @@ body.home .home_header_burger--menu i{
         .home_header_encabezado--compra--p{
             padding: 0;
             width: 30%;
+            font-size: 16px;
         }
         .home_header--menu{
             display: flex;
@@ -159,5 +160,6 @@ body.home .home_header_burger--menu i{
             gap: 15px;
             margin: 15px;
             margin-right: 20px;
+            font-size: 16px;
         }
     }

@@ -1,0 +1,8 @@
+.main__formLogin{
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+.main__formLogin .main__formBox__form--Inputs{
+    margin: 30px 0;
+}
