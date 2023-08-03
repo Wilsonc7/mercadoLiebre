@@ -1,72 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
     <script src="https://kit.fontawesome.com/4a85f0d80f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
-    
-
 </head>
 <body>
-    <header class="home_header">
-        <div class="home__header--box">
-            <div class="home_header_encabezado">
-                <div class="home_header_encabezado--logo">
+    <!-- //////////////////////////////////////////////////////////////////////////Header ////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <header class="home__header">
+        <div class="home__header__box">
+            <div class="home__header__encabezado">
+                <div class="home__header__encabezado__logo">
                     <a href="/"><img src="/images/logo-mercado-liebre.svg" alt="logo"></a>
                 </div>
-                <div class="home_header_encabezado--barra">           
-                    <form class="home_header_encabezado--form" action="#" method="post" target="_blank">
-                        <input class="home_header_encabezado--form--input" type="search" placeholder="Buscar productos, marcas" >
-                        <div class="home_header_encabezado--btn">   
+                <div class="home__header__encabezado__barra">           
+                    <form class="home__header__encabezado__form" action="#" method="post" target="_blank">
+                        <input class="home__header__encabezado__form__input" type="search" placeholder="Buscar productos, marcas" >
+                        <div class="home__header__encabezado__btn">   
                             <i class="fa-solid fa-magnifying-glass"></i>  
                         </div>
                     </form>     
                 </div>
                 
             </div> 
-            <p class="home_header_encabezado--compra--p"><i class="fa-sharp fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
+            <p class="home__header__encabezado__compra__p"><i class="fa-sharp fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
-        <nav class="home_header--menu">
-            <ul class="home_header_menu--opciones">
+        <nav class="home__header__menu">
+            <ul class="home__header__menu__opciones">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
-            <ul class="home_header_menu--login">
+            <ul class="home__header__menu__login">
                 <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-address-card"></i><br></li> 
                 <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i><br></li> 
                 <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
             </ul>
         </nav>
-        <div class="home_header_burger--menu">
+        <div class="home__header__burger__menu">
           <a href="/"><i class="fas fa-bars"></i></a>  
         </div>
     </header>
+ <!-- /////////////////////////////////////////////////////////////////////////////////////Fin de Header////////////////////////////////////////////////////////////////////////////////// -->
     <main class="main">
         <div class="main__formBox">
             <h2>Completá los datos para crear tu cuenta</h2>
-            <form action="" >
+            <form action="/" >
                 
-                <div class="main__formBox__form--Inputs">                 
+                <div class="main__formBox__form__Inputs">                 
                     <input id="name" type="text" name="name" placeholder="nombre y apellido">
                 </div>
-                <div class="main__formBox__form--Inputs">
+                <div class="main__formBox__form__Inputs">
                     <input id="user" type="text" name="user" placeholder="nombre de usuario">
                 </div>
-                <div class="main__formBox__form--Inputs">
-                    <input id="user" type="text" name="user" placeholder="Email">
+                <div class="main__formBox__form__Inputs">
+                    <input id="Email" type="text" name="Email" placeholder="Email">
                 </div>
-                <div class="main__formBox__form--Inputs" >
-                    <h4 >fecha de nacimiento</h3>
+                <div class="main__formBox__form__Inputs" >
+                    <h4>fecha de nacimiento</h4>
                     <input id="date" type="date" name="date">
                 </div>
-                <div class="main__formBox__form--Inputs">
+                <div class="main__formBox__form__Inputs">
                     <input id="domicilio" type="text" name="domicilio" placeholder="domicilio">
                 </div>
-                <div class="main__formBox__form--perfilUser">
+                <div class="main__formBox__form__perfilUser">
                     <h4  >perfil de usuario</h4>
                     <input  type="radio"  name="perfil" value="comprador" id="comprador">
                     
@@ -77,9 +77,9 @@
                         
                     </label>
                 </div>
-                <div class="main__formBox__form--intereses">
+                <div class="main__formBox__form__intereses">
                     
-                    <h4 for="">intereses</h4>
+                    <h4>intereses</h4>
                     
                     <input type="checkbox" name="electro" id="electro" value="electro">
                     <label for="electro">electro</label><br>
@@ -89,56 +89,57 @@
                     <label for="hogar">hogar</label><br>
                     <input type="checkbox" name="jugueteria" id="jugueteria" value="jugueteria">
                     <label for="jugueteria"> jugueteria</label><br>
-                    <input type="checkbox" name="vida sana" id="vida sana" value="vida sana">
-                    <label for="vida sana">vida sana</label><br>
+                    <input type="checkbox" name="vidasana" id="vidasana" value="vidasana">
+                    <label for="vidasana">vida sana</label><br>
                     
                 </div>
-                <div class="main__formBox__form--Inputs">
-                    <h4  for="fotoUsuario">Foto de usuario</h4>
+                <div class="main__formBox__form__Inputs">
+                    <h4 >Foto de usuario</h4>
                     <input id="fotoUsuario" type="file" accept=".jpg" name="fotoUsuario">
                 </div>
-                <div class="main__formBox__form--Inputs">
+                <div class="main__formBox__form__Inputs">
                     
                     <input id="password" type="password" name="password"  placeholder="Ingrese su contraseña">
                 </div>
-                <div class="main__formBox__form--Inputs">
+                <div class="main__formBox__form__Inputs">
                     
                     <input id="password2" type="password" name="password2" placeholder="repita su contraseña">
                 </div>
-                <div class="main__formBox__form--buttons">
+                <div class="main__formBox__form__buttons">
                     <button type="reset" >Limpiar</button>
                     <button type="submit" href="/" ><a href="/">Enviar</a></button>
                 </div>
             </form>
         </div>
     </main>
-    <footer class="home_footer">
+    <!--//////////////////////////////////////////////////////////////////////////////////////// Footer////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <footer class="home__footer">
         
-        <article class="home_footer_paga">
+        <article class="home__footer__paga">
             <i class="fa-solid fa-credit-card"></i>
-            <h4 class="home_footer_paga_titulo">Pagá con tarjeta o en efectivo</h4>
-            <p class="home_footer_paga_p">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+            <h4 class="home__footer__paga__titulo">Pagá con tarjeta o en efectivo</h4>
+            <p class="home__footer__paga__p">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
         </article>
     
     
-        <article class="home_footer_envio">
+        <article class="home__footer__envio">
             <i class="fa-sharp fa-solid fa-gift"></i>
-            <h4 class="home_footer_envio--titulo">Envío gratis desde $ 2.500</h4>
-            <p class="home_footer_envio--p">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            <h4 class="home__footer__envio__titulo">Envío gratis desde $ 2.500</h4>
+            <p class="home__footer__envio__p">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
         </article>
     
     
-        <article class="home_footer_seguridad">
+        <article class="home__footer__seguridad">
             <i class="fa-solid fa-user-shield"></i>
-            <h4 class="home_footer_seguridad--titulo">Seguridad, de principio a fin</h4>
-            <p class="home_footer_seguridad--p">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+            <h4 class="home__footer__seguridad__titulo">Seguridad, de principio a fin</h4>
+            <p class="home__footer__seguridad__p">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
         </article>
     
-        <p class="home_footer_p">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        <p class="home__footer__p">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 </footer>
-    
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////fin de Footer ////////////////////////////////////////////////////////////////////////////////////-->
 </body>
 </html>

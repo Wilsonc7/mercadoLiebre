@@ -1,29 +1,38 @@
 
-.home_main_banner{
+.home__main__banner{
     width: 100%;
 }
-.home--main h3{
+.home__main h3{
     margin-left: 5%;
 }
 .home__main__article{
     margin:0 auto 10px; 
     color: var(--colorGrisOscuro); 
-    background-color: #ffffff;
-    
+    background-color: #ffffff;  
 }
-
-.home_main_visita,.home_main_ofertas{
-    width: 90%;
-    margin: auto;
+/*//////////////////////////////////////////////////////////////////////////////////// animacion ////////////////////////////////////////////////////////////////////////////////////////////*/
+.home__main__article .home__main__descripcion{
+    overflow: hidden;
+    height: 0;
+    transition: all 1s ease;
 }
-.home_main_visita--precio,.home_main_ofertas--precio {
+.home__main__article:hover .home__main__descripcion{
+    height: 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.home__main__visita__precio,.home__main__ofertas__precio {
     font-size:18px ;
     line-height: 24px;  
     margin: 0; 
-    color: var(--colorGrisOscuro);
     width: 30%;
+    color: var(--colorGrisOscuro);
 }
-.home_main_visita--descuento,.home_main_ofertas--descuento{
+.home__main__visita,.home__main__ofertas{
+    width: 90%;
+    margin: auto;
+    align-items: flex-start;
+}
+.home__main__visita__descuento,.home__main__ofertas__descuento{
     font-size: 16px;
     line-height: 24px;
     margin: 0;
@@ -33,82 +42,92 @@
     width: 70%;
 
 }
-.home_main--descripcion{
+.home__main__descripcion{
     font-size: 16px;
     line-height: 24px;
     margin: 0;
     padding-top: 5px;
     display: none;
 }
-.home__main__section--article{
+.home__main__section__article{
     display: flex;
     border-top: solid 1px #ebebeb;
     padding: 15px;
     flex-wrap: wrap;
-    position: relative;
-    
+    position: relative;  
 }
-
 .home__main__article i{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     padding: 3px;
     width: 25px;
-    height: 25px;
+    align-content: center;
     border: 1px solid #39b54a;
+    height: 25px;
     background-color: #FFF;
-    border-radius: 50%;
     position: absolute;
+    border-radius: 50%;
+    color: #39b54a;
     right: 20px;
     top: -15px;
-    color: #39b54a;
     text-align: center;
-    
 }
-
-.home_main_visita--descripcion{
+/* ////////////////////////////////////////////////////////////////////////////////////animacion del camion //////////////////////////////////////////////////////////////////////////////////*/
+.home__main__section__article i:hover {
+    animation: rotate 1.5s linear;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(-90deg);
+    }
+    100% {
+      transform: rotate(0);
+}
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////fin de animacion ////////////////////////////////////////////////////////////////////////////*/
+.home__main__visita__descripcion{
     color: var(--colorGrisOscuro);
 }
-
-/* media q tablets */
-
+/*/////////////////////////////////////////////////////////////////////////////////////////// tablet ///////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width:481px) {
-    
-    /* main */
-    .home_main_visita,.home_main_ofertas{
+    .home__main__visita,.home__main__ofertas{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
-
     }
-    .home_main--descripcion{
+    .home__main__descripcion{
         display: block;
     }
-    .home_main_ofertas--descuento,.home_main_visita--descuento{
+    .home__main__ofertas__descuento,.home__main__visita__descuento{
         text-align: center;
-    }
-    
-        
+    }  
     .home__main__article{
         width: 42%;
         margin:0 auto 10px; 
         color: var(--colorGrisOscuro); 
+        transition: all 1s ease;
         background-color: #ffffff;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-
     }
-
+    /*/////////////////////////////////////////////////////////////////////////////////// Sombra ///////////////////////////////////////////////////////////////////////////////////////////*/
+    .home__main__article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }
-/* desktop */
+/* ////////////////////////////////////////////////////////////////////////////////////////desktop ///////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width:769px) {
-    .home--main h3{
+    .home__main h3{
         margin-left: 2%;
     }
     .home__main__article{
         width: 22%;
     }
-    .home_main_visita--descuento,.home_main_ofertas--descuento{ 
+    .home__main__visita__descuento,.home__main__ofertas__descuento{ 
         text-align:right;
     }
 }

@@ -11,14 +11,16 @@
     width: 100%;
 }
 .main__formBox h2{
-    margin: 10px;
+    margin: 14px;
+    background-color: var(--colorAmarillo);
+    margin-top: -4px;
 }
 
-.main__formBox__form--Inputs{
+.main__formBox__form__Inputs{
     margin: 15px 10px; 
 }
 
-.main__formBox__form--Inputs input{
+.main__formBox__form__Inputs input{
     text-transform: capitalize;
     width: 90%;
     border: none;
@@ -26,37 +28,37 @@
     padding: 10px;
    
 }
-.main__formBox__form--perfilUser{
+.main__formBox__form__perfilUser{
     margin: 10px  ;
 }
-.main__formBox__form--perfilUser h4{
+.main__formBox__form__perfilUser h4{
     margin: 5px 0;
 }
-.main__formBox__form--perfilUser input{
+.main__formBox__form__perfilUser input{
     margin: 10px 15px;
 }
-.main__formBox__form--perfilUser label{
+.main__formBox__form__perfilUser label{
     margin-right: 10px;
 }
 
 
-.main__formBox__form--intereses{
+.main__formBox__form__intereses{
    margin: 10px  ;
 
 }
-.main__formBox__form--intereses h4{
+.main__formBox__form__intereses h4{
     margin: 10px 0;
 }
-.main__formBox__form--intereses input{
+.main__formBox__form__intereses input{
     margin: 20px;
 }
 
-.main__formBox__form--buttons{
+.main__formBox__form__buttons{
     display: flex;
     flex-direction: column;
     
 }
-.main__formBox__form--buttons button{
+.main__formBox__form__buttons button{
     border: none;
     color: var(--colorGrisClaro);
     background-color: var(--colorCeleste);
@@ -64,10 +66,10 @@
     padding: 10px;
     border-radius: 4px;
 }
-.main__formBox__form--buttons button:active{
+.main__formBox__form__buttons button:active{
     background-color: var(--colorAzul);
 }
 
-.main__formBox__form--buttons button a{
+.main__formBox__form__buttons button a{
     color: var(--colorGrisClaro);
 }

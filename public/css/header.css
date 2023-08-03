@@ -1,51 +1,48 @@
 
-.home_header {    
+.home__header {    
     background-color:var(--colorAmarillo);
     font-size: 12px;
     padding-bottom: 10px;
 }
-.home_header_encabezado{
+.home__header__encabezado{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.home_header_encabezado--barra{
+.home__header__encabezado__barra{
     position: relative;
     padding: 15px;
     padding-left: 5px;
     width: 50%;
     
 }
-.home_header_encabezado--btn i{
+.home__header__encabezado__btn i{
     position: absolute;
-    top: 30px;
-    right: 35px;
+    top: 27px;
+    right: 18px;
     font-size: 16px;
 }
-
-.home_header_encabezado--logo{
+.home__header__encabezado__logo{
     width: 50%;
     
     padding: 15px;
     padding-right: 5px;
 }
-.home_header_encabezado--compra--p{
+.home__header__encabezado__compra__p{
     display: block;
     text-align: center;
     margin: auto;
     padding: auto;
     padding-bottom: 15px;
 }
-.home_header_encabezado--form--input{
+.home__header__encabezado__form__input{
     margin: 5px;
-    padding: 10px; 
+    padding: 7px;
     border-radius: 5px;
     border: none;
     width: 95%;
-
 }
- .home_header_boton--busqueda{
+ .home__header__boton__busqueda{
     margin-left: 0px;
     font-size: 12px;
     padding: 0;
@@ -53,93 +50,96 @@
     border: solid 1px var(--colorGrisOscuro);
     border-radius: 15%;
 }
-.home_header--menu{
+.home__header__menu{
     display: none;
 }
 
- .home_header--menu a, .home_header--menu ul{
+ .home__header__menu a, .home__header__menu ul{
     text-decoration: none;
     color: black;
     list-style: none;
     padding: 0;
 } 
 
- .home_header_menu--login li a{
+ .home__header__menu__login li a{
     padding-right: 5px;
 }
-.home_header_burger--menu a:visited{
+.home__header__burger__menu a:visited{
     color: var(--colorGrisClaro);
 }
- .home_header_burger--menu{
+ .home__header__burger__menu{
     color: var(--colorGrisClaro);
     text-align: center; 
-    margin:auto;
     margin-bottom: 10px;
+    margin:auto;
+   
     
 }
- .home_header_burger--menu i{
+ .home__header__burger__menu i{
     background-color: var(--colorCeleste);
     padding: 8px;
     border-radius: 5px;
     font-size: 16px;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////// tablets ////////////////////////////////////////////////////////////////////////////////////////*/
-
 @media (min-width:481px) {
-    /* /////////////////////////////////////////////////////////////////////////////////////////header/////////////////////////////////////////////////////////////////////////////////////////// */
-    .home__header--box{
+/* /////////////////////////////////////////////////////////////////////////////////////////header/////////////////////////////////////////////////////////////////////////////////////////// */
+    .home__header__box{
         display: flex;
     justify-content: space-between;
     align-items: center;
     
     }
-    .home_header_encabezado--compra--p{
+    .home__header__encabezado__compra__p{
         padding: 0;
     }
-    .home_header--menu{
+    .home__header__menu{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         gap:5px
     }
-    .home_header--menu ul{
+    .home__header__menu ul{
         display: flex;
         flex-direction: row;  
         gap:5px;
         margin: 3px;
         letter-spacing: -0.5px;
     }
-        
-
-    .home_header_burger--menu{
+    .home__header__encabezado__btn i{
+        position: absolute;
+        top: 25px;
+        right: 26px;
+        font-size: 16px;
+    }
+    .home__header__burger__menu{
         display: none;
     }
-
     }
 /*/////////////////////////////////////////////////////////////////////////////////// media/////////////////////////////////////////////////////////////////////////////////////// */
     @media (min-width:600px) {
 /*/////////////////////////////////////////////////////////////////////////////////// header ////////////////////////////////////////////////////////////////////////////////////*/
-        .home__header--box{
+        .home__header__box{
             display: flex;
         justify-content: space-between;
         align-items: center;
         
         }
-        .home_header_encabezado{
+        .home__header__encabezado{
             width: 70%;
         }
-        .home_header_encabezado--compra--p{
+        .home__header__encabezado__compra__p{
             padding: 0;
             width: 30%;
             font-size: 16px;
         }
-        .home_header--menu{
+        .home__header__menu{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             gap:5px
         }
-        .home_header--menu ul{
+        .home__header__menu ul{
             display: flex;
             flex-direction: row;  
             gap:15px;
@@ -148,15 +148,20 @@
             letter-spacing: 0px;
         }
     
-        .home_header_burger--menu{
+        .home__header__burger__menu{
             display: none;
         }
     
         }
-
     /*////////////////////////////////////////////////////////////////////////////////////// desktop ////////////////////////////////////////////////////////////////////////////////////*/
     @media (min-width:769px) {
-        .home_header--menu ul{
+        .home__header__encabezado__btn i{
+            position: absolute;
+            top: 27px;
+            right: 28px;
+            font-size: 16px;
+        }
+        .home__header__menu ul{
             gap: 15px;
             margin: 15px;
             margin-right: 20px;
