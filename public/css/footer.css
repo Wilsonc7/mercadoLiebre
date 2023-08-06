@@ -29,3 +29,41 @@
     max-width: 420px;
     margin: auto;
 }
+/*//////////////////////////////////////////////////////769////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width:769px){
+.home__footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.home__footer__envio,.home__footer__paga,.home__footer__seguridad {
+    width: 30%;
+   
+}
+.home__footer__p{
+    padding-top:5px;    
+}
+.home__footer i:hover{
+color:var(--colorAmarillo);
+animation: rotate2 1.5s linear;
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(180);
+}
+
+
+
+
+
+    
+
+ }
+  }

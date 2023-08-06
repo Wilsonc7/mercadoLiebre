@@ -3,9 +3,8 @@
     margin: 25px auto;
 }
 .main__formLogin .main__formBox__form__buttons button:hover{
-    background-color: #0022AA;
+    background-color: var(--colorAmarillo)
 }
 .main__formLogin .main__formBox__form__Inputs{
     margin: 30px 0;
 }
-
